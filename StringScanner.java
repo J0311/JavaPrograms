@@ -18,7 +18,7 @@ public class StringScanner {
 				String profession = info.next();
 				System.out.println("Sounds awesome. How long many years have you done this for?");
 
-					int yearsOfWork = info.nextInt();
+				int yearsOfWork = info.nextInt();
 				
 				System.out.println("You're a seasoned veteran!! Respect. \nRoses are red, true or false?");
 						boolean momentOfTruth = info.nextBoolean();
