@@ -5,7 +5,7 @@ public class StringScanner {
 	public static void main(String[] args) {
 		
 		// Scanner Class Coding
-
+				//Scanner is initiated
 				Scanner info = new Scanner(System.in);
 				System.out.println("What's your first name?");
 
@@ -13,7 +13,10 @@ public class StringScanner {
 				System.out.println("Hey " + myName + " great to meet you! How old are you?");
 
 				int myAge = info.nextInt();
-				if (myAge < 60) {
+		
+				//"If" loop begins
+		
+					if (myAge < 60) {
 				System.out.println("Wow you're young! In one word describe what you do for a living?");
 				String profession = info.next();
 				System.out.println("Sounds awesome. How long many years have you done this for?");
@@ -37,7 +40,7 @@ public class StringScanner {
 				int yearsOfJob = info.nextInt();
 						
 				System.out.println("You're a seasoned veteran!! Respect. \nRoses are red, true or false?");
-								boolean momentOfTrue = info.nextBoolean();
+				boolean momentOfTrue = info.nextBoolean();
 				System.out.println("Right on....last request- please enter your middle initial");
 				String middleInitial = info.next();
 				char middleInitialM = middleInitial.charAt(0);
@@ -47,7 +50,7 @@ public class StringScanner {
 				System.out.println("Wonderful. Thanks for using this program!");
 					
 					}
-						else {
+					else {
 							//System.exit(start);
 						}
 					}
