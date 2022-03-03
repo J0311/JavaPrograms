@@ -25,21 +25,25 @@ public class CellPhone {
 		this.phoneNumber = phoneNumber;
 		
 // Ensure we instantiate array with SAME length as our parameter
+		
 	this.cellBills = new double [cellBills.length];
 	
 // Copy parameter array to cellBills array
+		
 	for(int i = 0; i < cellBills.length; i++) 
 	{
 		this.cellBills[i] = cellBills[i];
 	}
 	}
 // Accessor method which returns phone number
+	
 	public String getPhoneNumber() 
 	{
 		return phoneNumber;
 	}
 	
 // Accessor method which returns phone bills and cellBills array
+	
 	public double[] getCellBills() 
 	{
 		double [] temp = new double [cellBills.length];
@@ -66,12 +70,14 @@ public class CellPhone {
 		public double findMaxBill()
 		{
 	// We assume our first element in array is the max
+			
 			double max = cellBills[0];
 			for( int i = 1; i < cellBills.length; i++)
 			{
 				if(cellBills[i] > max)
 				{
 	// Here we will save new maximum
+					
 					max = cellBills[i];
 				}
 				
@@ -81,6 +87,7 @@ public class CellPhone {
 			}
 			
 			@Override
+	
 			public String toString()
 			{
 				String returnValue = phoneNumber + "\n";
