@@ -13,7 +13,7 @@ public class BinarySearch {
 // Define an array sorted in ascending order
 	
 	int[] numbers = {3, 6, 7,8, 12, 15, 22, 36, 45,
-					48, 51, 53, 64, 69, 72, 89, 95};
+			48, 51, 53, 64, 69, 72, 89, 95};
 
 	
 	Scanner input = new Scanner(System.in);
