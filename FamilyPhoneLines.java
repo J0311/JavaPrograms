@@ -54,6 +54,15 @@ public class FamilyPhoneLines {
 			System.out.print("The number of columns in row " + i + " is ");
 			
 			System.out.println(familyPhoneLines[i].length);
+			
+			}
+	
+// We use a "nested" for loop to print all elements of 2-dimensional array
+		
+			for (int i = 0; i < familyPhoneLines.length; i++) {
+				for(int j = 0; j < familyPhoneLines[i].length; j++) {
+					System.out.println(familyPhoneLines[i][j] + "\t");
+				}
 		}
 
 	}
