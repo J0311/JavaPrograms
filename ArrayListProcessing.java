@@ -1,5 +1,7 @@
-// processing elements of ArrayList with
-// enhanced for loops
+// @author Joseph Walker
+
+// processing elements of ArrayList while juxtaposing traditional and enhanced for loops
+
 
 import java.util.ArrayList;
 
