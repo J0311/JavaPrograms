@@ -1,6 +1,6 @@
 //@author Joseph Walker
 
-// how to acquire the sum of a column in a 2D array
+// how to extract MAX value of a column in a multidimensional array
 
 import java.util.Scanner;
 import java.text.NumberFormat;
