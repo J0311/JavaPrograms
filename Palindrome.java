@@ -20,7 +20,6 @@ public class Palindrome {
 		
 		for (int i = original.length() - 1; i >= 0; i --) {
 			reverse += original.charAt(i);
-			System.out.println(reverse);
 		}
 
 		boolean palindrome = true;
