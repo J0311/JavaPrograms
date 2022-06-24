@@ -5,7 +5,6 @@
 public class FamilyPhoneLines {
 
 	public static void main(String[] args) {
-		
 
 // we declare constants for the # of rows & columns
 		
