@@ -66,5 +66,4 @@ public class FamilyPhoneLines {
 				}
 			System.out.println();
 		}
-
 	}
